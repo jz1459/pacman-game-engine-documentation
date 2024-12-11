@@ -1,0 +1,11 @@
+digraph "components::RenderComponent::setSprite"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="components::RenderComponent\l::setSprite",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Updates the sprite for rendering."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="components::PlayerInputComponent\l::setSprite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcomponents_1_1_player_input_component.html#afa1db884405fef887ad8228bf3d630f1",tooltip="Updates the sprite based on the current direction."];
+}

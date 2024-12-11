@@ -1,0 +1,11 @@
+digraph "components::CollisionComponent::checkCollision"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="components::CollisionComponent\l::checkCollision",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Checks for a collision with another component."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="components::CollisionComponent\l::getBounds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcomponents_1_1_collision_component.html#ac0e2780f7027c1b57f56e61f540efc07",tooltip="Gets the bounding box of the component."];
+}
